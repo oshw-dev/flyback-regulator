@@ -25,3 +25,5 @@ Flyback switching regulator with small footprint
 * http://www.ti.com/tool/PMP8965
 * https://www.st.com/resource/en/data_brief/dm00348452.pdf
 * http://www.kosmodrom.com.ua/pdf/PLG06A-SERIES.pdf
+* https://www.onsemi.com/pub/Collateral/NCP1060-D.PDF
+* https://www.st.com/en/power-management/viper22as-e.html
