@@ -1,0 +1,531 @@
+EESchema Schematic File Version 4
+LIBS:flyback-regulator-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Transformer_1P_2S T?
+U 1 1 5CDBDAE4
+P 7350 3950
+F 0 "T?" H 7350 4528 50  0000 C CNN
+F 1 "Transformer_1P_2S" H 7350 4437 50  0000 C CNN
+F 2 "" H 7350 3950 50  0001 C CNN
+F 3 "~" H 7350 3950 50  0001 C CNN
+	1    7350 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5CDBDD7B
+P 10450 3950
+F 0 "J?" H 10530 3942 50  0000 L CNN
+F 1 "DC out" H 10530 3851 50  0000 L CNN
+F 2 "" H 10450 3950 50  0001 C CNN
+F 3 "~" H 10450 3950 50  0001 C CNN
+	1    10450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5CDBDDD7
+P 650 3400
+F 0 "J?" H 570 3617 50  0000 C CNN
+F 1 "AC in" H 570 3526 50  0000 C CNN
+F 2 "" H 650 3400 50  0001 C CNN
+F 3 "~" H 650 3400 50  0001 C CNN
+	1    650  3400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Bridge_+-AA D?
+U 1 1 5CDBE15D
+P 1750 3450
+F 0 "D?" H 1750 3928 50  0000 C CNN
+F 1 "D_Bridge_+-AA" H 1750 3837 50  0000 C CNN
+F 2 "" H 1750 3450 50  0001 C CNN
+F 3 "~" H 1750 3450 50  0001 C CNN
+	1    1750 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:SFH617A-1 U?
+U 1 1 5CDBE2F8
+P 7300 4850
+F 0 "U?" H 7300 5175 50  0000 C CNN
+F 1 "SFH617A-1" H 7300 5084 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 7100 4650 50  0001 L CIN
+F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 7300 4850 50  0001 L CNN
+	1    7300 4850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5CDBE5AC
+P 2600 3600
+F 0 "C?" H 2718 3646 50  0000 L CNN
+F 1 "CP" H 2718 3555 50  0000 L CNN
+F 2 "" H 2638 3450 50  0001 C CNN
+F 3 "~" H 2600 3600 50  0001 C CNN
+	1    2600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5CDBE620
+P 3400 3600
+F 0 "C?" H 3518 3646 50  0000 L CNN
+F 1 "CP" H 3518 3555 50  0000 L CNN
+F 2 "" H 3438 3450 50  0001 C CNN
+F 3 "~" H 3400 3600 50  0001 C CNN
+	1    3400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5CDBE689
+P 3000 3200
+F 0 "L?" V 3190 3200 50  0000 C CNN
+F 1 "L" V 3099 3200 50  0000 C CNN
+F 2 "" H 3000 3200 50  0001 C CNN
+F 3 "~" H 3000 3200 50  0001 C CNN
+	1    3000 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Q_SCR_AGK D?
+U 1 1 5CDBEE72
+P 7900 5400
+F 0 "D?" H 7988 5354 50  0000 L CNN
+F 1 "Q_SCR_AGK" H 7988 5445 50  0000 L CNN
+F 2 "" V 7900 5400 50  0001 C CNN
+F 3 "~" V 7900 5400 50  0001 C CNN
+	1    7900 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5CDBEFA5
+P 8050 3750
+F 0 "D?" H 8050 3534 50  0000 C CNN
+F 1 "D" H 8050 3625 50  0000 C CNN
+F 2 "" H 8050 3750 50  0001 C CNN
+F 3 "~" H 8050 3750 50  0001 C CNN
+	1    8050 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5CDBF08B
+P 9150 3950
+F 0 "C?" H 9268 3996 50  0000 L CNN
+F 1 "CP" H 9268 3905 50  0000 L CNN
+F 2 "" H 9188 3800 50  0001 C CNN
+F 3 "~" H 9150 3950 50  0001 C CNN
+	1    9150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CDBF132
+P 8750 4400
+F 0 "R?" H 8820 4446 50  0000 L CNN
+F 1 "R" H 8820 4355 50  0000 L CNN
+F 2 "" V 8680 4400 50  0001 C CNN
+F 3 "~" H 8750 4400 50  0001 C CNN
+	1    8750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CDBF188
+P 8750 5450
+F 0 "R?" H 8820 5496 50  0000 L CNN
+F 1 "R" H 8820 5405 50  0000 L CNN
+F 2 "" V 8680 5450 50  0001 C CNN
+F 3 "~" H 8750 5450 50  0001 C CNN
+	1    8750 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CDBF1C2
+P 8300 4450
+F 0 "R?" H 8370 4496 50  0000 L CNN
+F 1 "R" H 8370 4405 50  0000 L CNN
+F 2 "" V 8230 4450 50  0001 C CNN
+F 3 "~" H 8300 4450 50  0001 C CNN
+	1    8300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CDBF298
+P 8150 4950
+F 0 "C?" V 8402 4950 50  0000 C CNN
+F 1 "C" V 8311 4950 50  0000 C CNN
+F 2 "" H 8188 4800 50  0001 C CNN
+F 3 "~" H 8150 4950 50  0001 C CNN
+	1    8150 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5CDBF349
+P 6000 3850
+F 0 "D?" H 6000 4066 50  0000 C CNN
+F 1 "D" H 6000 3975 50  0000 C CNN
+F 2 "" H 6000 3850 50  0001 C CNN
+F 3 "~" H 6000 3850 50  0001 C CNN
+	1    6000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CDBF3D7
+P 5750 3500
+F 0 "R?" H 5820 3546 50  0000 L CNN
+F 1 "R" H 5820 3455 50  0000 L CNN
+F 2 "" V 5680 3500 50  0001 C CNN
+F 3 "~" H 5750 3500 50  0001 C CNN
+	1    5750 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CDBF43B
+P 5400 3500
+F 0 "C?" H 5285 3454 50  0000 R CNN
+F 1 "C" H 5285 3545 50  0000 R CNN
+F 2 "" H 5438 3350 50  0001 C CNN
+F 3 "~" H 5400 3500 50  0001 C CNN
+	1    5400 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5CDBF5FE
+P 4600 4200
+F 0 "D?" H 4600 3984 50  0000 C CNN
+F 1 "D" H 4600 4075 50  0000 C CNN
+F 2 "" H 4600 4200 50  0001 C CNN
+F 3 "~" H 4600 4200 50  0001 C CNN
+	1    4600 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CDBF660
+P 3900 4500
+F 0 "R?" H 3970 4546 50  0000 L CNN
+F 1 "R" H 3970 4455 50  0000 L CNN
+F 2 "" V 3830 4500 50  0001 C CNN
+F 3 "~" H 3900 4500 50  0001 C CNN
+	1    3900 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CDBF6D2
+P 3900 5000
+F 0 "R?" H 3970 5046 50  0000 L CNN
+F 1 "R" H 3970 4955 50  0000 L CNN
+F 2 "" V 3830 5000 50  0001 C CNN
+F 3 "~" H 3900 5000 50  0001 C CNN
+	1    3900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5CDBF71E
+P 4600 5000
+F 0 "C?" H 4718 5046 50  0000 L CNN
+F 1 "CP" H 4718 4955 50  0000 L CNN
+F 2 "" H 4638 4850 50  0001 C CNN
+F 3 "~" H 4600 5000 50  0001 C CNN
+	1    4600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Large #LOGO?
+U 1 1 5CDBFA2B
+P 6200 7100
+F 0 "#LOGO?" H 6200 7600 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 6200 6700 50  0001 C CNN
+F 2 "" H 6200 7100 50  0001 C CNN
+F 3 "~" H 6200 7100 50  0001 C CNN
+	1    6200 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  3400 1150 3400
+Wire Wire Line
+	1150 3400 1150 3150
+Wire Wire Line
+	1150 3150 1750 3150
+Wire Wire Line
+	850  3500 1150 3500
+Wire Wire Line
+	1150 3500 1150 3750
+Wire Wire Line
+	1150 3750 1750 3750
+Wire Wire Line
+	1450 3450 1450 3950
+Wire Wire Line
+	1450 3950 2600 3950
+Wire Wire Line
+	2050 3450 2250 3450
+Wire Wire Line
+	2250 3450 2250 3200
+Wire Wire Line
+	2250 3200 2600 3200
+Wire Wire Line
+	2600 3450 2600 3200
+Connection ~ 2600 3200
+Wire Wire Line
+	2600 3200 2850 3200
+Wire Wire Line
+	2600 3950 2600 3750
+Wire Wire Line
+	2600 3950 3400 3950
+Wire Wire Line
+	3400 3950 3400 3750
+Connection ~ 2600 3950
+Wire Wire Line
+	3400 3450 3400 3200
+Wire Wire Line
+	3400 3200 3150 3200
+Wire Wire Line
+	3900 4850 3900 4750
+Connection ~ 3900 4750
+Wire Wire Line
+	3900 4750 3900 4650
+Wire Wire Line
+	3900 4750 5050 4750
+Wire Wire Line
+	4600 4850 4600 4350
+Wire Wire Line
+	5450 4350 5450 4400
+Wire Wire Line
+	5850 5800 5850 5200
+Wire Wire Line
+	3900 5800 3900 5150
+Wire Wire Line
+	4600 5150 4600 5800
+Connection ~ 4600 5800
+Wire Wire Line
+	4600 5800 3900 5800
+Wire Wire Line
+	3900 5800 3400 5800
+Wire Wire Line
+	3400 5800 3400 3950
+Connection ~ 3900 5800
+Connection ~ 3400 3950
+Wire Wire Line
+	3400 3200 5400 3200
+Connection ~ 3400 3200
+Wire Wire Line
+	5750 3350 5750 3200
+Wire Wire Line
+	5750 3200 5400 3200
+Connection ~ 5400 3200
+Wire Wire Line
+	5400 3200 5400 3350
+Wire Wire Line
+	5850 3850 5750 3850
+Wire Wire Line
+	5750 3850 5750 3650
+Wire Wire Line
+	5750 3850 5400 3850
+Wire Wire Line
+	5400 3850 5400 3650
+Connection ~ 5750 3850
+Wire Wire Line
+	6150 3850 6200 3850
+Wire Wire Line
+	6950 3550 6200 3550
+Wire Wire Line
+	6200 3550 6200 3200
+Wire Wire Line
+	6200 3200 5750 3200
+Connection ~ 5750 3200
+Wire Wire Line
+	6200 4150 5800 4150
+Wire Wire Line
+	5800 4150 5800 4400
+Wire Wire Line
+	5800 4400 5850 4400
+Wire Wire Line
+	5800 4400 5750 4400
+Connection ~ 5800 4400
+Wire Wire Line
+	6200 3850 6200 4150
+Connection ~ 6200 3850
+Wire Wire Line
+	6200 3850 6950 3850
+Wire Wire Line
+	7000 4750 6650 4750
+Wire Wire Line
+	6350 4750 6350 5400
+Wire Wire Line
+	5850 5800 6650 5800
+Connection ~ 5850 5800
+$Comp
+L Device:C C?
+U 1 1 5CDCD551
+P 6650 5100
+F 0 "C?" H 6535 5054 50  0000 R CNN
+F 1 "C" H 6535 5145 50  0000 R CNN
+F 2 "" H 6688 4950 50  0001 C CNN
+F 3 "~" H 6650 5100 50  0001 C CNN
+	1    6650 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6650 4750 6650 4950
+Connection ~ 6650 4750
+Wire Wire Line
+	6650 4750 6350 4750
+Wire Wire Line
+	6650 5250 6650 5800
+Wire Wire Line
+	7750 3750 7900 3750
+Wire Wire Line
+	10250 3950 9900 3950
+Wire Wire Line
+	9900 3950 9900 3750
+Wire Wire Line
+	8200 3750 8300 3750
+Wire Wire Line
+	9150 3800 9150 3750
+Connection ~ 9150 3750
+Wire Wire Line
+	9150 3750 9900 3750
+Wire Wire Line
+	8300 4300 8300 3750
+Connection ~ 8300 3750
+Wire Wire Line
+	8300 3750 8750 3750
+Wire Wire Line
+	8300 4600 8300 4750
+Wire Wire Line
+	8300 4750 7600 4750
+Wire Wire Line
+	7600 4950 7900 4950
+Wire Wire Line
+	7900 4950 7900 5250
+Wire Wire Line
+	8000 4950 7900 4950
+Connection ~ 7900 4950
+Wire Wire Line
+	8050 5300 8300 5300
+Wire Wire Line
+	8300 5300 8300 4950
+Wire Wire Line
+	8750 4250 8750 3750
+Connection ~ 8750 3750
+Wire Wire Line
+	8750 3750 9150 3750
+Wire Wire Line
+	8750 4550 8750 4950
+Connection ~ 8300 4950
+Wire Wire Line
+	8300 4950 8750 4950
+Wire Wire Line
+	8750 4950 8750 5300
+Connection ~ 8750 4950
+Wire Wire Line
+	8750 5600 8750 5650
+Wire Wire Line
+	8750 5650 7900 5650
+Wire Wire Line
+	8750 5650 9150 5650
+Wire Wire Line
+	9150 5650 9150 4150
+Connection ~ 8750 5650
+Wire Wire Line
+	7750 4150 9150 4150
+Connection ~ 9150 4150
+Wire Wire Line
+	9150 4150 9150 4100
+Wire Wire Line
+	9150 4150 9900 4150
+Wire Wire Line
+	9900 4150 9900 4050
+Wire Wire Line
+	9900 4050 10250 4050
+Wire Wire Line
+	6950 4350 6900 4350
+Wire Wire Line
+	6900 4350 6900 4950
+Connection ~ 6650 5800
+Wire Wire Line
+	6650 5800 6900 5800
+Wire Wire Line
+	6900 5800 6900 4950
+Wire Wire Line
+	6900 4950 7000 4950
+Connection ~ 6900 4950
+Text Notes 3750 5050 1    50   ~ 0
+Sets power limit
+Text Notes 8900 5300 1    50   ~ 0
+Sets output voltage
+$Comp
+L flyback-regulator-dedicated:NCP1060 U?
+U 1 1 5CDF9B9D
+P 5550 4800
+F 0 "U?" H 5980 4846 50  0000 L CNN
+F 1 "NCP1060" H 5980 4755 50  0000 L CNN
+F 2 "Package_DIP:PowerIntegrations_PDIP-8B" H 6000 4850 50  0001 L CIN
+F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00231127.pdf" H 5550 4800 50  0001 C CNN
+	1    5550 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 5200 5400 5800
+Connection ~ 5400 5800
+Wire Wire Line
+	5400 5800 4600 5800
+Wire Wire Line
+	5400 5800 5850 5800
+Wire Wire Line
+	5550 5200 5550 5400
+Wire Wire Line
+	5550 5400 6350 5400
+Text Label 3450 5800 0    50   ~ 0
+HV_GND
+Wire Wire Line
+	4600 4050 3900 4050
+Wire Wire Line
+	3900 4050 3900 4350
+Connection ~ 4600 4050
+Connection ~ 4600 4350
+Wire Wire Line
+	4600 4050 6950 4050
+Wire Wire Line
+	4600 4350 5450 4350
+Text Label 9900 4150 2    50   ~ 0
+GND
+Text Label 9900 3750 2    50   ~ 0
+VCC
+Text Label 900  3500 0    50   ~ 0
+AC_N
+Text Label 900  3400 0    50   ~ 0
+AC_L
+Wire Wire Line
+	7900 5650 7900 5550
+Text Notes 7200 2600 2    157  ~ 31
+HV side <-
+Text Notes 7500 2600 0    157  ~ 31
+-> LV side
+$EndSCHEMATC

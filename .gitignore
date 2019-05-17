@@ -1,0 +1,5 @@
+schematics/*.bak
+schematics/*.bck
+schematics/*.dcm
+schematics/sym-lib-table
+*.swp
